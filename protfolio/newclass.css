@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+.container{
+
+    background-color: rgb(227, 154, 166);
+    text-align: center;
+    width: 60%;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 4px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+#Toatal-Characters{
+    color:green;
+}
+#Remaining-Character{
+    color: red;
+}
+p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.textarea1{
+    resize: none;
+    width: 300px;
+    height: 250px;
+}
+
+@media(max-width:500px){
+    .container{
+        width:100%
+    }
+    h2{
+        font: 15px;
+    }
+    textarea1{
+        width: 300px;
+        height: 100px;
+    }
+    p{
+        display: block;
+    }
+}
